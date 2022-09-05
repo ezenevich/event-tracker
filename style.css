@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 640px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  max-width: 480px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.title {
+  margin: 15px 0;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.description {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: #505050;
+}
+
+.text {
+  line-height: 24px;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+.score {
+  display: inline;
+  font-size: 28px;
+  margin: 0 5px;
+}
+
+.progress {
+  margin: 35px 0;
+  width: 100%;
+  height: 30px;
+}
+
+.progress__border {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #7e7e7e;
+  border-radius: 8px;
+}
+
+.progress__bar {
+  width: 0%;
+  height: 100%;
+  background-color: chartreuse;
+  border-radius: 8px;
+}
