@@ -5,7 +5,7 @@ const targetScoreText = document.querySelector("#targetScore");
 const targetScore = 25;
 targetScoreText.textContent = targetScore;
 
-const scores = [7, 7, 8, 10, 7, 9, 9, 7, 9, 9, 8, 7, 7, 7, 8, 10, 7, 8, 9];
+const scores = [7, 7, 8, 10, 7, 9, 9, 7, 9, 9, 8, 7, 7, 7, 8, 10, 9, 7, 8, 9, 10];
 
 const renderScore = (scores) => {
   return scores.map((score) => {
